@@ -1,0 +1,7 @@
+.carousel-slide {
+    display: flex;   
+    flex-wrap: wrap;
+}
+.d-block {
+    height: 500px;
+}
