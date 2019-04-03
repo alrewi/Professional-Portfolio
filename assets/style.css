@@ -5,3 +5,51 @@
 .d-block {
     height: 500px;
 }
+.portfolio-link {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    color: hotpink;
+}
+.banner {
+    background-color: #F8F9FA;
+    margin-top: 56px;
+    position: relative;
+    height: 380px;
+} 
+.banner-figure {
+    padding-top: 20px;
+    margin-left: 0px;
+}
+.banner-text {
+    position: relative;
+    margin-left: 32px;
+    float: left;
+}
+.banner-name {
+    font-size: 2.5rem;
+}
+#bio {
+    margin: 0 20px 0 20px;
+    padding-right: 50px;
+}
+#me {
+    border-radius: 50%;
+    height: 200px;
+    float: left;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+}
+
+@media only screen and (min-width: 576px) {
+    .banner {
+        height: 300px;
+    }
+    .banner-text {
+        margin-left: 50px;
+        padding-top: 20px;
+    }
+}
