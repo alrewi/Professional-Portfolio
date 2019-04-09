@@ -12,43 +12,44 @@
     <title>Alexandra Wilson</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Alexandra Wilson</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#bio">About Me</a>   
-                    <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
-                    <a class="nav-item nav-link" href="#contact">Contact</a>
-                </div>
+    <div class="container">
+        <header class="nav-bar">     
+            <div class="row nav-div">
+                <a class="logo" href="#">Alexandra Wilson</a>
             </div>
-        </div>
-    </nav>
+            <div class="row nav-div">
+                <nav>
+                    <a class="nav-but" href="#bio">About</a>
+                    <a class="nav-but" href="#portfolio">Portfolio</a>
+                    <a class="nav-but" href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+    </div>
     <div class="jumbotron jumbotron-fluid banner">
         <figure class="container banner-figure">
-            <img src="assets/images/IMG_1420 copy.jpeg" id="me">
+            <img src="assets/images/IMG_1420 copy.jpeg" class="pic">
             <figcaption class="banner-text">
                 <h1 class="display-4 banner-name">Alexandra Wilson</h1>
                 <p class="lead">An aspiring web developer</p>
             </figcaption>
         </figure>
     </div>
-    <div class="row container-fluid" name="bio" id="bio">
-        <p>
-            Well, hello! My name is Alex Wilson. I’m an aspiring web developer and this is my portfolio.
-        </p><br>
-        <p>
-            A little about myself: I grew up in Austin and moved to New York City for college when I was 18. In 2008, I graduated with a bachelor’s degree in Neural Science from NYU. At the time, I wasn’t ready for any further graduate studies, so I decided to go into the family business and I started cooking. I worked in restaurants in for the next several years, trying my hand in the front of house, back of house, management. When I was ready to leave NY, I made my way down to New Orleans for a year before coming back home to Austin. 
-        </p>
-        <p>
-            Once I was settled here, I decided I was ready to continue my studies. I began taking courses at the community college and UT in order to prepare for a Ph.D. program. But as I learned more about the fields of mathematics and physics, it became clear that these purely academic pursuits rely heavily on a knowledge of coding. Most of the job descriptions I stumbled upon called for a degree in physics, or computer science. So I started teaching myself the basics of HTML, CSS and JavaScript to test the waters… and here we are! So excited to continue learning and building my body of work.        
-        </p><br>
-        <p>
-            Feel free to contact me and please check out some of my past and current projects!
-        </p>
+    <div class="container">
+        <div class="row" name="bio" id="bio">
+            <p>
+                Well, hello! My name is Alex Wilson. I’m an aspiring web developer and this is my portfolio.
+            </p><br>
+            <p>
+                A little about myself: I grew up in Austin and moved to New York City for college when I was 18. In 2008, I graduated with a bachelor’s degree in Neural Science from NYU. At the time, I wasn’t ready for any further graduate studies, so I decided to go into the family business and I started cooking. I worked in restaurants in for the next several years, trying my hand in the front of house, back of house, management. When I was ready to leave NY, I made my way down to New Orleans for a year before coming back home to Austin. 
+            </p>
+            <p>
+                Once I was settled here, I decided I was ready to continue my studies. I began taking courses at the community college and UT in order to prepare for a Ph.D. program. But as I learned more about the fields of mathematics and physics, it became clear that these purely academic pursuits rely heavily on a knowledge of coding. Most of the job descriptions I stumbled upon called for a degree in physics, or computer science. So I started teaching myself the basics of HTML, CSS and JavaScript to test the waters… and here we are! So excited to continue learning and building my body of work.        
+            </p><br>
+            <p>
+                Feel free to contact me and please check out some of my past and current projects!
+            </p>
+        </div>
     </div>
     <div class="bd-example">
         <a name="portfolio"></a>
@@ -61,8 +62,18 @@
                 <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
             </ol>
             <div class="carousel-inner">
+                <div class="carousel-item active" >
+                    <img src="./assets/images/huy-phan-587849-unsplash.jpg" class="d-block w-100" alt="couple">
+                    <div class="carousel-caption d-none d-md-block">
+                        <a class="portfolio-link" href="https://hot-friend-finder-3000.herokuapp.com/" target="_blank">
+                            <h5>FriendFinder3000</h5>
+                            <p>A dating app, short and sweet</p>
+                        </a>
+                    </div>
+                </div>
                 <div class="carousel-item active" >
                     <img src="./assets/images/jakob-owens-422373-unsplash.jpg" class="d-block w-100" alt="cowgirl">
                     <div class="carousel-caption d-none d-md-block">
@@ -137,7 +148,7 @@
             </a>
         </div>
     </div>
-    <div class="container-fluid contact" name="contact">
+    <div class="container contact" name="contact">
         <div class="row">
             <div class="col-12-xs">Contact</div>
         </div>
