@@ -59,19 +59,35 @@ Jumbotron
     font-size: 2.5rem;
 }
 
-
-
-
-
-
-
-.carousel-slide {
-    display: flex;   
-    flex-wrap: wrap;
+.icon-container {
+    font-size: 75px;
+    text-align: center;
+    margin: 28px;
 }
-.d-block {
-    height: 500px;
+
+.portfolio-container {
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.card-container {
+    min-width: 100%;
+    min-height: 200px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.card-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.portfolio-item {
+    min-width: 18em;
+}
+
 .portfolio-link {
     text-decoration: none;
     color: white;
@@ -82,7 +98,7 @@ a:hover {
 }
 
 #bio, .contact {
-    margin: 0 20px 0 20px;
+    margin: 0 20px 20px 20px;
     padding-right: 50px;
 }
 
