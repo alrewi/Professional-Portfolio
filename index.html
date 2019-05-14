@@ -20,9 +20,9 @@
             </div>
             <div class="row nav-div">
                 <nav>
-                    <a class="nav-but" href="#bio">About</a>
                     <a class="nav-but" href="#portfolio">Portfolio</a>
                     <a class="nav-but" href="#contact">Contact</a>
+                    <a class="nav-but" href="#bio">About Me</a>
                 </nav>
             </div>
         </header>
@@ -31,145 +31,161 @@
         <figure class="container banner-figure">
             <img src="assets/images/me/IMG_1420 copy.jpeg" class="img-fluid pic">
             <figcaption class="banner-text">
-                <h1 class="display-4 banner-name">Alexandra Wilson</h1>
-                <p class="lead">An aspiring web developer</p>
+                <svg class="animation" viewBox="0 0 1320 300">
+
+                    <!-- Symbol -->
+                    <symbol id="s-text">
+                        <text text-anchor="middle"
+                            x="50%" y="40%" dy=".35em">
+                        Alexandra Wilson
+                        </text>
+                    </symbol>  
+                      
+                    <!-- Duplicate symbols -->
+                    <use xlink:href="#s-text" class="text"
+                            ></use>
+                    <use xlink:href="#s-text" class="text"
+                            ></use>
+                    <use xlink:href="#s-text" class="text"
+                            ></use>
+                    <use xlink:href="#s-text" class="text"
+                            ></use>
+                    <use xlink:href="#s-text" class="text"
+                            ></use>
+                    
+                </svg>
             </figcaption>
         </figure>
     </div>
     <div class="container">
+        <div class="intro">
+            <h5>Well, hello!</h5>
+            <h6>My name is <span style="color:hotpink">Alex Wilson.</span><br>I’m an aspiring web developer <br>and this is my portfolio.</h6>
+        </div>
+        <div class="container-fluid portfolio-container">
+            <a name="portfolio"></a>
+            <div class="d-flex flex-row flex-nowrap card-container">
+                <div class="card portfolio-item" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/images/portfolio/huy-phan-587849-unsplash.jpg" alt="couple">
+                    <div class="card-body">
+                        <h5 class="card-title">FriendFinder</h5>
+                        <p class="card-text">A dating app, short and sweet</p>
+                        <a class="portfolio-link btn btn-warning" href="https://hot-friend-finder-3000.herokuapp.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card portfolio-item" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/images/portfolio/marcel-heil-1250594-unsplash.jpg" alt="burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Eat a Burger!</h5>
+                        <p class="card-text">Track your favorite burgers across town</p>
+                        <a class="portfolio-link btn btn-warning" href="https://ultimate-burger-time.herokuapp.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card portfolio-item" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/images/portfolio/jakob-owens-422373-unsplash.jpg" alt="cowgirl">
+                    <div class="card-body">
+                        <h5 class="card-title">Honky Tonk Hangman</h5>
+                        <p class="card-text">A country-themed version of the guessing game</p>
+                        <a class="portfolio-link btn btn-warning" href="https://alrewi.github.io/Word-Guess-Game/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card portfolio-item" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/images/portfolio/alexander-andrews-520231-unsplash.jpg" alt="space">
+                    <div class="card-body">
+                        <h5 class="card-title">Space Trivia</h5>
+                        <p class="card-text">A timed trivia game to test your knowledge of our universe</p>
+                        <a class="portfolio-link btn btn-warning" href="https://alrewi.github.io/TriviaGame/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card portfolio-item" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/images/portfolio/jason-d-1271987-unsplash.jpg" alt="crystal">
+                    <div class="card-body">
+                        <h5 class="card-title">Crystal Collector</h5>
+                        <p class="card-text">A simple math and memory game</p>
+                        <a class="portfolio-link btn btn-warning" href="https://alrewi.github.io/unit-4-game/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card portfolio-item" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/images/portfolio/matthijs-smit-579209-unsplash.jpg" alt="drum">
+                    <div class="card-body">
+                        <h5 class="card-title">Rock 'n' Roll GIFs</h5>
+                        <p class="card-text">An 80s-rock-themed GIF generator to get you psyched</p>
+                        <a class="portfolio-link btn btn-warning" href="https://alrewi.github.io/ButtRockGIFs/" target="_blank"><i class="fas fa-external-link-alt"></i></a>                
+                    </div>
+                </div>
+                <div class="card portfolio-item" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/images/portfolio/rock-n-roll-monkey-681546-unsplash.jpg" alt="robot">
+                    <div class="card-body">
+                        <h5 class="card-title">LIRI</h5>
+                        <p class="card-text">A CLI app to search concerts, movies and songs</p>
+                        <a class="portfolio-link btn btn-warning" href="https://github.com/alrewi/liri-node-app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card portfolio-item" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/images/portfolio/wyron-a-561710-unsplash.jpg" alt="psychic">
+                    <div class="card-body">
+                        <h5 class="card-title">Psychic Computer</h5>
+                        <p class="card-text">Play against the computer and win</p>
+                        <a class="portfolio-link btn btn-warning" href="https://alrewi.github.io/Psychic-Game/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="card portfolio-item" style="width: 18rem;">
+                    <img class="card-img-top" src="./assets/images/portfolio/alexandre-godreau-510220-unsplash.jpg" alt="shop">
+                    <div class="card-body">
+                        <h5 class="card-title">Bamazon</h5>
+                        <p class="card-text">A CLI app that mimics online shopping</p>
+                        <a class="portfolio-link btn btn-warning" href="https://github.com/alrewi/bamazon" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container contact" name="contact">
+            <div class="row">
+                <div class="col-12-xs">Contact</div>
+            </div>
+            <div class="row">
+                <div class="col-6-xs">Email:</div>
+                <div class="col-6-xs">alexandreginawilson@gmail.com</div>
+            </div>
+            <div class="row">
+                <div class="col-6-xs">Phone:</div>
+                <div class="col-6-xs">(512)554-8917</div>
+            </div>
+            <div class="row">
+                <div class="col-6-xs">LinkedIn:</div>
+                <div class="col-6-xs">
+                    <a href="https://www.linkedin.com/in/alexandra-regina-wilson/">Alexandra Wilson</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6-xs">GitHub:</div>
+                <div class="col-6-xs">
+                    <a href="https://github.com/alrewi">alrewi</a>
+                </div>
+            </div>
+        </div>
         <div class="row" name="bio" id="bio">
+            <h4>A little about myself</h4>
             <p>
-                Well, hello! My name is Alex Wilson. I’m an aspiring web developer and this is my portfolio.
-            </p><br>
-            <p>
-                A little about myself: I grew up in Austin and moved to New York City for college when I was 18. In 2008, I graduated with a bachelor’s degree in Neural Science from NYU. At the time, I wasn’t ready for any further graduate studies, so I decided to go into the family business and I started cooking. I worked in restaurants in for the next several years, trying my hand in the front of house, back of house, management. When I was ready to leave NY, I made my way down to New Orleans for a year before coming back home to Austin.
+                I grew up in Austin and moved to New York City for college when I was 18. In 2008, I graduated with a bachelor’s degree in Neural Science from NYU. At the time, I wasn’t ready for any further graduate studies, so I decided to go into the family business and I started cooking. I worked in restaurants in for the next several years, trying my hand in the front of house, back of house, management. When I was ready to leave NY, I made my way down to New Orleans for a year before coming back home to Austin.
             </p>
             <p>
                 Once I was settled here, I decided I was ready to continue my studies. I began taking courses at the community college and UT in order to prepare for a Ph.D. program. But as I learned more about the fields of mathematics and physics, it became clear that these purely academic pursuits rely heavily on a knowledge of coding. Most of the job descriptions I stumbled upon called for a degree in physics, or computer science. So I started teaching myself the basics of HTML, CSS and JavaScript to test the waters… and here we are! 
             </p> 
             <p>
                 As a member of UT Austin's Full Stack Web Development Boot Camp, I spent the spring of 2019 learning a myriad of new skills and honing my proficiency in the thoery and application of front-end and back-end web development. I'm now fluent in HTML, CSS and Javascript. I've learned to work with JQuery, Node.js, Handlebars, React and PHP. I can also create and manage MySQL and MongoDB databases. So excited to continue learning and building my body of work.
-            </p><br>
+            </p>
             <p> 
                 Feel free to contact me and please check out some of my past and current projects!
             </p>
         </div>
         <div class="icon-container">
-            <i style="height: 20px" class="fab fa-html5"></i>
+            <i class="fab fa-html5"></i>
             <i class="fab fa-css3-alt"></i>
             <i class="fab fa-js-square"></i>
             <i class="fab fa-node-js"></i>
             <i class="fas fa-database"></i>
             <i class="fab fa-react"></i>
-        </div>
-    </div>
-    <div class="container-fluid portfolio-container">
-        <a name="portfolio"></a>
-        <div class="d-flex flex-row flex-nowrap card-container">
-            <div class="card portfolio-item" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/images/portfolio/huy-phan-587849-unsplash.jpg" alt="couple">
-                <div class="card-body">
-                    <h5 class="card-title">FriendFinder</h5>
-                    <p class="card-text">A dating app, short and sweet</p>
-                    <a class="portfolio-link btn btn-primary" href="https://hot-friend-finder-3000.herokuapp.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-            <div class="card portfolio-item" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/images/portfolio/marcel-heil-1250594-unsplash.jpg" alt="burger">
-                <div class="card-body">
-                    <h5 class="card-title">Eat a Burger!</h5>
-                    <p class="card-text">Track your favorite burgers across town</p>
-                    <a class="portfolio-link btn btn-primary" href="https://ultimate-burger-time.herokuapp.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-            <div class="card portfolio-item" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/images/portfolio/jakob-owens-422373-unsplash.jpg" alt="cowgirl">
-                <div class="card-body">
-                    <h5 class="card-title">Honky Tonk Hangman</h5>
-                    <p class="card-text">A country-themed version of the guessing game</p>
-                    <a class="portfolio-link btn btn-primary" href="https://alrewi.github.io/Word-Guess-Game/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-            <div class="card portfolio-item" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/images/portfolio/alexander-andrews-520231-unsplash.jpg" alt="space">
-                <div class="card-body">
-                    <h5 class="card-title">Space Trivia</h5>
-                    <p class="card-text">A timed trivia game to test your knowledge of our universe</p>
-                    <a class="portfolio-link btn btn-primary" href="https://alrewi.github.io/TriviaGame/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-            <div class="card portfolio-item" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/images/portfolio/jason-d-1271987-unsplash.jpg" alt="crystal">
-                <div class="card-body">
-                    <h5 class="card-title">Crystal Collector</h5>
-                    <p class="card-text">A simple math and memory game</p>
-                    <a class="portfolio-link btn btn-primary" href="https://alrewi.github.io/unit-4-game/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-            <div class="card portfolio-item" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/images/portfolio/matthijs-smit-579209-unsplash.jpg" alt="drum">
-                <div class="card-body">
-                    <h5 class="card-title">Rock 'n' Roll GIFs</h5>
-                    <p class="card-text">An 80s-rock-themed GIF generator to get you psyched</p>
-                    <a class="portfolio-link btn btn-primary" href="https://alrewi.github.io/ButtRockGIFs/" target="_blank"><i class="fas fa-external-link-alt"></i></a>                
-                </div>
-            </div>
-            <div class="card portfolio-item" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/images/portfolio/rock-n-roll-monkey-681546-unsplash.jpg" alt="robot">
-                <div class="card-body">
-                    <h5 class="card-title">LIRI</h5>
-                    <p class="card-text">A CLI app to search concerts, movies and songs</p>
-                    <a class="portfolio-link btn btn-primary" href="https://github.com/alrewi/liri-node-app" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-            <div class="card portfolio-item" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/images/portfolio/wyron-a-561710-unsplash.jpg" alt="psychic">
-                <div class="card-body">
-                    <h5 class="card-title">Psychic Computer</h5>
-                    <p class="card-text">Play against the computer and win</p>
-                    <a class="portfolio-link btn btn-primary" href="https://alrewi.github.io/Psychic-Game/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-            <div class="card portfolio-item" style="width: 18rem;">
-                <img class="card-img-top" src="./assets/images/portfolio/alexandre-godreau-510220-unsplash.jpg" alt="shop">
-                <div class="card-body">
-                    <h5 class="card-title">Bamazon</h5>
-                    <p class="card-text">A CLI app that mimics online shopping</p>
-                    <a class="portfolio-link btn btn-primary" href="https://github.com/alrewi/bamazon" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
-            <div class="card portfolio-item" style="width: 18rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a class="portfolio-link btn btn-primary" href="https://github.com/alrewi/bamazon" target="_blank"><i class="fas fa-external-link-alt"></i></a>                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container contact" name="contact">
-        <div class="row">
-            <div class="col-12-xs">Contact</div>
-        </div>
-        <div class="row">
-            <div class="col-6-xs">Email:</div>
-            <div class="col-6-xs">alexandreginawilson@gmail.com</div>
-        </div>
-        <div class="row">
-            <div class="col-6-xs">Phone:</div>
-            <div class="col-6-xs">(512)554-8917</div>
-        </div>
-        <div class="row">
-            <div class="col-6-xs">LinkedIn:</div>
-            <div class="col-6-xs">
-                <a href="https://www.linkedin.com/in/alexandra-regina-wilson/">Alexandra Wilson</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-6-xs">GitHub:</div>
-            <div class="col-6-xs">
-                <a href="https://github.com/alrewi">alrewi</a>
-            </div>
         </div>
     </div>
 </body>
