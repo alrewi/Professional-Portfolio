@@ -2,6 +2,11 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+.main-content {
+    margin-top: 100px;
+}
+
 /*
 =====================================
 Name Animation
@@ -73,7 +78,7 @@ Nav Bar
 =====================================
 */
 .nav-bar {
-    background-color: #F8F9FA;
+    background-color: #ffe0bd;
     position: fixed;
     left: 0;
     top: 0;
@@ -102,17 +107,19 @@ Jumbotron
 =====================================
 */
 .banner {
-    background-color: #F8F9FA;
-    margin-top: 56px;
+    background-color: #ffe0bd;
+    /* margin-top: 56px; */
     height: 400px;
     position: relative;
+    z-index: 2;
+    border-bottom: 2px dotted #ffad60;
 } 
 .pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    border: 2px dotted tan;
+    border: 3px dotted #ffad60;
     height: 230px;
   }
 .banner-figure {
@@ -176,20 +183,52 @@ Jumbotron
     color: white;
     position: absolute;
     bottom: 10px;
+    background-color: #ffad60
 }
+
+.btn-warning {
+    color: #ffad60;
+}
+
 a:hover {
     text-decoration: none;
     color: hotpink;
     cursor: pointer;
 }
 
-#bio, .contact {
+#bio {
     margin: 0 20px 20px 20px;
     padding-right: 50px;
 }
 
+.contact-intro {
+    margin-bottom: 32px;
+    margin-left: 20px;
+}
+
 .contact {
     font-size: 50px;
+    margin: 0 20px 20px 20px;
+    padding: 0;
+    margin: 0 0 32px 0;
+}
+i {
+    color: black;
+}
+.social-row {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+.social-col {
+    width: 50%;
+}
+
+.contact-info {
+   font-size: 20px;
+   margin: 5px 0 5px 0;
+   display: block;
+   width: 100%;
 }
 
 .card-img-top {
